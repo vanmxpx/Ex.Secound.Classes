@@ -1,14 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex.Secound.Classes.Task3Book
 {
     class Content
     {
-        public string content;
+        private string content;
+
+        public void SetContent(string value)
+        {
+            content = value;
+        }
 
         public void Show()
         {

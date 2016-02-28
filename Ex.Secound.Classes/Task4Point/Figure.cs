@@ -5,7 +5,7 @@ namespace Ex.Secound.Classes
 {
     class Figure
     {
-        List<Point> points =  new List<Point>();
+        private List<Point> points =  new List<Point>();
         public double Perimeter { get; set; } 
 
         public Figure(Point A, Point B, Point C)

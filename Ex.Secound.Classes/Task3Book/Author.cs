@@ -1,14 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex.Secound.Classes.Task3Book
 {
     class Author
     {
-        public string author;
+        private string author;
+
+        public void SetAuthor(string value)
+        {
+            author = value;
+        }
 
         public void Show()
         {

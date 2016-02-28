@@ -10,14 +10,14 @@ namespace Ex.Secound.Classes
 
             Adress adress = new Adress();
 
-            adress.index = "49000";
-            adress.country = "Ukraine";
-            adress.city = "Dnipropetrovsk";
-            adress.street = "Kirov";
-            adress.house = 22;
-            adress.apartment = 55;
-            Console.Write("{0} {1} St., Apt. {2}, ", adress.house, adress.street, adress.apartment);
-            Console.WriteLine("{0}, {1}, {2}", adress.city, adress.country, adress.index);
+            adress.Index = "49000";
+            adress.Country = "Ukraine";
+            adress.City = "Dnipropetrovsk";
+            adress.Street = "Kirov";
+            adress.House = 22;
+            adress.Apartment = 55;
+            Console.Write("{0} {1} St., Apt. {2}, ", adress.House, adress.Street, adress.Apartment);
+            Console.WriteLine("{0}, {1}, {2}", adress.City, adress.Country, adress.Index);
 
         }
     }
