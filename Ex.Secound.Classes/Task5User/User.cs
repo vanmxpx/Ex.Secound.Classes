@@ -8,7 +8,7 @@ namespace Ex.Secound.Classes
 {
     class User
     {
-        readonly DateTime registration;
+        readonly private DateTime registration;
 
         public string Login { get; set; }
         public string Name { get; set; }

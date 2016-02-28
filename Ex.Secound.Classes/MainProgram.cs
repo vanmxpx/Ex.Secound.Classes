@@ -18,33 +18,6 @@ namespace Ex.Secound.Classes
             }
             Console.WriteLine("Press any key to exit.");
             Console.Read();
-
-            #region Test task 6
-            Console.WriteLine("Ex. 6: Converter");
-
-
-
-            Console.WriteLine("Press any key to go next exersize");
-            Console.Read();
-            #endregion
-
-            #region Test task 7
-            Console.WriteLine("Ex. 7: Inployee");
-
-
-
-            Console.WriteLine("Press any key to go next exersize");
-            Console.Read();
-            #endregion
-
-            #region Test task 8
-            Console.WriteLine("Ex. 8: Invoice");
-
-
-
-            Console.WriteLine("Press any key to go next exersize");
-            Console.Read();
-            #endregion
         }
     }
 }

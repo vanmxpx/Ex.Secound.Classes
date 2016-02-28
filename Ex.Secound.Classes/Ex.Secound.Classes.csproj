@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Task8Invoice\Invoice.cs" />
+    <Compile Include="Task7Inployee\Inployee.cs" />
+    <Compile Include="Task6Converter\Converter.cs" />
+    <Compile Include="Task8Invoice\Main8.cs" />
+    <Compile Include="Task7Inployee\Main7.cs" />
+    <Compile Include="Task6Converter\Main6.cs" />
+    <Compile Include="Task5User\Main5.cs" />
+    <Compile Include="Task4Point\Main4.cs" />
+    <Compile Include="Task3Book\Main3.cs" />
+    <Compile Include="Task2Rectangle\Main2.cs" />
+    <Compile Include="Task1Adress\Main1.cs" />
     <Compile Include="Task4Point\Figure.cs" />
     <Compile Include="Task4Point\Point.cs" />
     <Compile Include="Presenter.cs" />
