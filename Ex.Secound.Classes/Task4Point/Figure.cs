@@ -15,18 +15,13 @@ namespace Ex.Secound.Classes
             points.Add(C);
         }
         public Figure(Point A, Point B, Point C, Point D)
+            : this(A, B, C)
         {
-            points.Add(A);
-            points.Add(B);
-            points.Add(C);
             points.Add(D);
         }
         public Figure(Point A, Point B, Point C, Point D, Point E)
+            : this(A, B, C, D)
         {
-            points.Add(A);
-            points.Add(B);
-            points.Add(C);
-            points.Add(D);
             points.Add(E);
         }
 
